@@ -1,0 +1,8 @@
+def pow(x,n):
+	ret=1
+	for i in xrange(n)
+		ret*=x
+	return ret
+a = int(input("Enter"))
+b = int(input("Enter"))
+print pow(a,b)

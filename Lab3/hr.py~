@@ -1,0 +1,19 @@
+import time
+a = []
+b = []
+i=0
+while i>=0 :
+	k=1
+	while k<=10:
+		j=1
+		while j<= (i*10+k)**3: #(i+1)*10 :
+			c = j**3 + (i*10+k)**3
+			if (c in b): #and ([j+(i*10+k),c] not in a)  :
+				print c
+				time.sleep(0.5)
+			b.appendd(c)
+			#a = a+[[j+(i*10+k),c]]
+			j+=1
+		k+=1
+	i+=1
+
